@@ -6,7 +6,9 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App date="Today 12:00PM" text="nice"/>
+    <App date="Today 09:56AM" text="fantastic"/>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
